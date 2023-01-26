@@ -1,0 +1,38 @@
+@media only screen and (max-width:1200px){
+    .iconasagi {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .menu ul {
+        display: none;
+    }
+
+    .menu hr {
+        display: none;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .iconasagi {
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+
+}
+
+@media only screen and (max-width:576px){
+.text{
+    font-size: 20px;
+}
+.dictz{
+    font-size: 20px;
+}
+
+}

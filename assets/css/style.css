@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Square&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,800&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Square&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,800&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1180px;
+    margin: auto;
+}
+
+:root {
+    --mons: 'Montserrat', sans-serif;
+    --dela: 'Dela Gothic One', cursive;
+}
+
+header {
+    background: #F6F5F4;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 33px;
+    padding-top: 33px;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 0.2;
+}
+
+.menu img{
+    text-align: center;
+}
+.menu hr {
+    width: 0px;
+    height: 16.87px;
+    border: 1.20466px solid #E0E0E0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.menu ul li a {
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #000;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 0.2;
+}
+
+.A {
+    padding: 9px 14px;
+    gap: 14px;
+    width: 41px;
+    height: 40px;
+    background: #C3DCE3;
+    border-radius: 100px;
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+    text-decoration: none;
+}
+
+.Alex {
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    text-decoration: none;
+}
+
+nav button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+    background: none;
+    border: none;
+}
+
+header hr {
+    border: 1.20466px solid #E0E0E0;
+    ;
+}
+
+/* .firstsection css start */
+
+.firstsection {
+    padding-top: 94.61px;
+    padding-bottom: 123.72px;
+    background: #F6F5F4;
+}
+
+.firstsection h2 {
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #2B788B;
+    margin-bottom: 24px;
+}
+
+.firstsection h1 {
+    font-family: var(--dela);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.p1 {
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    margin-top: 30px;
+}
+
+.flex600{
+    display: flex;
+    align-items: center;
+    
+}
+
+.flex600 h1{
+    font-family: 'Dela Gothic One';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: -0.02em;
+color: #000000;
+}
+
+.flex600 span{
+    color: #2B788B !important;
+}
+
+.firstsection button {
+    padding: 14px 22px;
+    gap: 19px;
+    width: 165px;
+    height: 44px;
+    background: #C3DCE3;
+    border-radius: 100px;
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+    border: none;
+    margin-top: 32px;
+    margin-bottom: 62px;
+}
+
+.flex0 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex01 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.p2 {
+    font-family: var(--dela);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.p3 {
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #585858;
+    margin-left: 23px;
+}
+
+.firstsection hr {
+    width: 0px;
+    height: 48.78px;
+    border: 1.21942px solid #E0E0E0;
+}
+
+.p4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #585858;
+}
+
+.boy{
+    height: auto;
+}
+
+/* .secondsection css start */
+
+.secondsection {
+    padding-top: 77.5px;
+    padding-bottom: 135px;
+}
+
+.secondsection h1 {
+    font-family: var(--dela);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.secondsection p {
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.shoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F2D4DC;
+    border-radius: 14px;
+    width: 129px;
+    height: 112px;
+    position: absolute;
+    transform: translate(0,22%);
+}
+
+.shoes img {
+    position: relative;
+    left: 0;
+    bottom: 23.5px;
+}
+
+.shoes a{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: -0.04em;
+color: #945069;
+text-decoration: none;
+position: relative;
+left: 0;
+bottom: 20px;
+}
+
+
+.audio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    position: absolute;
+    width: 172px;
+    height: 112px;
+    background: #C3DCE3;
+    border-radius: 14px;
+    transform: translate(102%,22%);
+}
+
+.audio img {
+    position: relative;
+    left: 0;
+    bottom: 39.5px;
+}
+
+.audio a {
+    font-family: var(--mons);
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: -0.04em;
+color: #2B788B;
+text-decoration: none;
+position: relative;
+left: 0;
+bottom: 44px;
+}
+
+
+
+/* .thirdsection css start */
+
+.thirdsection {
+    background: #F6F5F4;
+    padding-top: 136.01px;
+}
+
+.thirdsection h1 {
+    font-family: var(--dela);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+
+.thirdsection p {
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 34px
+}
+
+.thirdsection button {
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+    border: none;
+    padding: 14px 22px;
+    gap: 19px;
+    width: 165px;
+    height: 44px;
+    background: #C3DCE3;
+    border-radius: 100px;
+}
+
+/* .section4 start */
+
+.section4 {
+    margin-top: 95px;
+    padding-bottom: 96px;
+}
+
+.section4 h1 {
+    font-family: var(--dela);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000000;
+
+}
+
+.section4 p {
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.04em;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 34px;
+}
+
+.section4 button {
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.04em;
+    color: #2B788B;
+    padding: 14px 22px;
+    gap: 19px;
+    width: 165px;
+    height: 44px;
+    background: #C3DCE3;
+    border-radius: 100px;
+    border: none;
+}
+
+/* footer css start */
+
+footer {
+    background: #F6F5F4;
+    padding-top: 40px;
+    padding-bottom: 43px;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+footer ul li a {
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    color: #757575;
+    text-decoration: none;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_menu2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer hr {
+    border: 1.20466px solid #E0E0E0;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+footer p {
+    font-family: var(--mons);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    color: #757575;
+}
+
+.footer_menu div svg {
+    margin-right: 34px;
+}

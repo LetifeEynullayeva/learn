@@ -1,0 +1,181 @@
+@media only screen and (max-width:1400px) {
+    .iconasagi {
+        display: none;
+    }
+
+    .res_p {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width:992px) {
+    .boy {
+        width: 400px;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .menu hr {
+        display: none;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    .iconasagi {
+        display: block;
+    }
+
+    .flex0 {
+        text-align: center;
+    }
+
+    .flex0 h1 {
+        font-size: 32px;
+    }
+
+    .firstsection h2 {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .p1 {
+        display: none;
+    }
+
+    .res_p {
+        display: block;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: -0.04em;
+        color: #757575;
+        margin-top: 12px;
+    }
+
+    .flex600 h1 {
+        font-size: 20px;
+    }
+
+    .flex600 img {
+        width: 11%;
+    }
+
+    .flex0 p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .firstsection button {
+        margin-bottom: 22px;
+    }
+
+    .firstsection hr {
+        height: 32px;
+    }
+
+    .boy {
+        width: 335px;
+        height: 280px;
+        margin: auto;
+    }
+
+    .flex2 {
+        flex-direction: column;
+    }
+
+    .flex2 img {
+        width: 335px;
+        height: 230px;
+    }
+
+    .secondsection h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .secondsection p {
+        font-size: 14px;
+    }
+
+    .shoes {
+        width: 114px;
+        height: 112px;
+    }
+
+    .shoes img {
+        width: 131px;
+        height: 106px;
+    }
+
+    .audio img {
+        width: 91px;
+        height: 106px;
+    }
+
+    .thirdsection h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .thirdsection p {
+        font-size: 14px;
+    }
+
+    .thirdsection button {
+        width: 116px;
+        height: 38px;
+        font-size: 14px;
+        align-items: center;
+    }
+
+    .thirdsection img {
+        width: 335px;
+        height: 260px;
+    }
+
+    .section4 img {
+        width: 335px;
+        height: 230px;
+    }
+
+    .section4 h1{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .section4 p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    footer ul li{
+        display: block;
+    }
+    .footer_menu2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+@media only screen and (max-width:768px) {
+    .flex0 {
+        flex-direction: column;
+    }
+    header .menu{
+        flex-grow: 0.7;
+    }
+
+}
+
+
+@media only screen and (max-width:576px) {}
